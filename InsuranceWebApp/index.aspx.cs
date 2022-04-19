@@ -33,7 +33,7 @@ namespace InsuranceWebApp
                 if ((age >= 18) && (age <= 30))
                     premium = 5.0;
                 else
-                    if (age  31 )
+                    if (age 31)
                     premium = 2.50;
                 else
                     premium = 0.0;

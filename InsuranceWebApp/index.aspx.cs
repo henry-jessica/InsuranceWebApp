@@ -21,7 +21,7 @@ namespace InsuranceWebApp
 
             CalcPremium(int.Parse(txbAge.Text), tbxLocation.Text);
 
-            lblResult.Text = (CalcPremium(int.Parse(txbAge.Text), tbxLocation.Text)).ToString();
+            lblResult.Text  = (CalcPremium(int.Parse(txbAge.Text), tbxLocation.Text)).ToString();
 
 
         }
